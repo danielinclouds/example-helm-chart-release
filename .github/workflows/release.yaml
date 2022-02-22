@@ -46,9 +46,10 @@ jobs:
       #     helm repo add bitnami https://charts.bitnami.com/bitnami
 
       - name: Run chart-releaser
-        uses: helm/chart-releaser-action@master
+        uses: helm/chart-releaser-action@v1.3.0
         with:
           charts_dir: web-application
           # config: cr.yaml
         env:
-          CR_TOKEN: "${{ secrets.TOKEN }}"
+          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          # CR_TOKEN: "${{ secrets.TOKEN }}"
