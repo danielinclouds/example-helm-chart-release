@@ -3,6 +3,16 @@ entries:
   web-application:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-22T00:51:21.443080165Z"
+    description: A Helm chart for Kubernetes
+    digest: a4dae0c7a496a8685571265c3ca03242a5fbed4dc04ad731b0073697f93b8602
+    name: web-application
+    type: application
+    urls:
+    - https://github.com/danielinclouds/example-helm-chart-release/releases/download/web-application-0.6.0/web-application-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-22T00:43:16.306010737Z"
     description: A Helm chart for Kubernetes
     digest: 09d1545075afb15b75ac957c02eed2da2065e65719f96a36fcb1ae2b564ab55a
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/danielinclouds/example-helm-chart-release/releases/download/web-application-0.5.0/web-application-0.5.0.tgz
     version: 0.5.0
-generated: "2022-02-22T00:43:16.306025537Z"
+generated: "2022-02-22T00:51:21.443096066Z"
